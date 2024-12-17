@@ -11,20 +11,21 @@ let combos = [
 ];
 
 const keyImages = {
-    'Q': 'https://photos.fife.usercontent.google.com/pw/AP1GczOurUxy_Y-x6lfh052-trpyLhM3gEIcN7nAlHaSivE9y3HM9LfwNc4=w101-h105-s-no-gm?authuser=1',
-    'W': 'https://photos.fife.usercontent.google.com/pw/AP1GczPlQbl-R9_Xap4-rG6A_HYwCjzk7eNTWYf8OMGI87nFDK5ySgbYu04=w98-h101-s-no-gm?authuser=1',
-    'E': 'https://photos.fife.usercontent.google.com/pw/AP1GczMg-s2glwAglC0DweNknSbZ3vlp9O7U9lAw1TmYqbljptPA8hosRV0=w98-h102-s-no-gm?authuser=1'
+    'Q': 'qhwei.png',
+    'W': 'hweiw.png',
+    'E': 'hweie.png'
 };
 const comboImages = {
-    'Q,Q': 'https://photos.fife.usercontent.google.com/pw/AP1GczMO0l0eUyITcdP0rkzH0tXXx-oPlBz3SBUZGdD8UfxR-ZqBZ07t6Oc=w64-h62-s-no-gm?authuser=1',
-    'Q,W': 'https://photos.fife.usercontent.google.com/pw/AP1GczMhBCzuFcIElR8jvhWbMVpBqfONrqoptSkpMaPTwH6W0YBMb8rf76s=w66-h64-s-no-gm?authuser=1',
-    'Q,E': 'https://photos.fife.usercontent.google.com/pw/AP1GczPUf87yNZrCX8tNFKhKh9ffOGTtBnvaVrMEj5_j5qobDgpa4X7nzXE=w66-h65-s-no-gm?authuser=1',
-    'W,Q': 'https://photos.fife.usercontent.google.com/pw/AP1GczNKNBTpPlZeYm1ar4zXtGDJBKe1BkcVz_gA8Q7NmTXfCnxd0mPD3wM=w66-h64-s-no-gm?authuser=1',
-    'W,E': 'https://photos.fife.usercontent.google.com/pw/AP1GczNetAi8VH6iXohg4E--sEaJ2_lZREfMwx0tQl2G03wr-Q1iRlDnhPk=w64-h62-s-no-gm?authuser=1',
-    'W,W': 'https://photos.fife.usercontent.google.com/pw/AP1GczNqNPKHkoxJOodwnxDis4aP_oLqeVR_6T5IedVtWRLeawTjRDiXQ9I=w67-h65-s-no-gm?authuser=1',
-    'E,Q': 'https://photos.fife.usercontent.google.com/pw/AP1GczPZJ4Eorg9WkJUkn6phOeVbQrle3xagvnDQvD9wKLHpshYowSRDHyQ=w66-h63-s-no-gm?authuser=1',
-    'E,W': 'https://photos.fife.usercontent.google.com/pw/AP1GczNyd2VgfXn87RnsMsRc8GIslQ_XgLXAMHz90ggt_OemVlQCr2aqi7Q=w63-h63-s-no-gm?authuser=1',
-    'E,E': 'https://photos.fife.usercontent.google.com/pw/AP1GczPYp9N0NjnTZjWUgS4NtKyDJ13Q9r8Ax31O4zxkAN0BlqKM1QInu3A=w65-h66-s-no-gm?authuser=1',
+'Q,Q': 'qq.png',
+'Q,W': 'qw.png',
+'Q,E': 'qe.png',
+'W,Q': 'wq.png',
+'W,E': 'we.png',
+'W,W': 'ww.png',
+'E,Q': 'eq.png',
+'E,W': 'ew.png',
+'E,E': 'ee.png',
+
 };
 
 let correctCombo;
