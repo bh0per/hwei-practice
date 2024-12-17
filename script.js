@@ -163,4 +163,3 @@ document.addEventListener('keydown', function(event) {
 // Initialize random combo
 generateRandomCombo();
 startTimer();
- 
