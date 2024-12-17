@@ -74,6 +74,18 @@ body {
     background-repeat: no-repeat; /* Nie powtarzaj tła */
     color: transparent; /* Ukrywa tekst w buttonach */
 }
+a {
+    color: #00a2ff; /* Neonowy zielony kolor */
+    text-decoration: none; /* Usuwa podkreślenie */
+    font-family: 'Roboto', sans-serif; /* Nowoczesny font */
+    font-weight: 700; /* Grubszy tekst */
+    text-shadow: 0 0 2px #00a2ff, 0 0 10px #00a2ff; /* Neonowy efekt cienia */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Płynne przejścia */
+}
+a:hover {
+    color: #00AA00; /* Nieco jaśniejszy kolor przy hoverze */
+    text-shadow: 0 0 0px #00FF00, 0 0 15px #00FF00; /* Zwiększony efekt cienia */
+}
 
 .key-label {
     font-size: 16px;
