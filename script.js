@@ -11,20 +11,20 @@ let combos = [
 ];
 
 const keyImages = {
-    'Q': 'https://media.discordapp.net/attachments/852993484288688198/1318144659717095494/image.png?ex=67614160&is=675fefe0&hm=53cc3be991557301462c1254cc38f78145b580aea95de3359cc92094fd4b7782&=&format=webp&quality=lossless&width=111&height=115',
-    'W': 'https://media.discordapp.net/attachments/852993484288688198/1318144779271278592/image.png?ex=6761417d&is=675feffd&hm=d68530ee422f2b459ec2b431fb839ce14f6b7204aec352c3b563dc368a3b5cc7&=&format=webp&quality=lossless&width=107&height=111',
-    'E': 'https://media.discordapp.net/attachments/852993484288688198/1318144847873572964/image.png?ex=6761418d&is=675ff00d&hm=d05306e289d9daad33ec11f4e79413fe8f8a240e1d5759936144052e642edb8d&=&format=webp&quality=lossless&width=107&height=112'
+    'Q': 'https://photos.fife.usercontent.google.com/pw/AP1GczOurUxy_Y-x6lfh052-trpyLhM3gEIcN7nAlHaSivE9y3HM9LfwNc4=w101-h105-s-no-gm?authuser=1',
+    'W': 'https://photos.fife.usercontent.google.com/pw/AP1GczPlQbl-R9_Xap4-rG6A_HYwCjzk7eNTWYf8OMGI87nFDK5ySgbYu04=w98-h101-s-no-gm?authuser=1',
+    'E': 'https://photos.fife.usercontent.google.com/pw/AP1GczMg-s2glwAglC0DweNknSbZ3vlp9O7U9lAw1TmYqbljptPA8hosRV0=w98-h102-s-no-gm?authuser=1'
 };
 const comboImages = {
-    'Q,Q': 'https://media.discordapp.net/attachments/852993484288688198/1318182435464286228/image.png?ex=6761648f&is=6760130f&hm=a6078db16d314c0e50aaefe74fd8130ad9536b54ed5f566102bc3ec7770d3867&=&format=webp&quality=lossless&width=70&height=68',
-    'Q,W': 'https://media.discordapp.net/attachments/852993484288688198/1318182446667403284/image.png?ex=67616491&is=67601311&hm=de26eb9d3cbadd6ef5d6ebad6e5cbd168d2b87cae005356ab30ef444aa85d41c&=&format=webp&quality=lossless&width=72&height=70',
-    'Q,E': 'https://media.discordapp.net/attachments/852993484288688198/1318182516963807252/image.png?ex=676164a2&is=67601322&hm=7aa6c2c9a4e93e546069faed02a431330786da0e4caa92defcce53df436e50a0&=&format=webp&quality=lossless&width=72&height=71',
-    'W,Q': 'https://media.discordapp.net/attachments/852993484288688198/1318182567031214150/image.png?ex=676164ae&is=6760132e&hm=8a50a18c249b1a76010860df8a51380d811c41cadffb6be6e8773a07aa350065&=&format=webp&quality=lossless&width=72&height=70',
-    'W,E': 'https://media.discordapp.net/attachments/852993484288688198/1318184428203278356/image.png?ex=6761666a&is=676014ea&hm=3f64700b0130cc4ef2bb6362e02993adffd18c05be8aa62746af16c270994f5b&=&format=webp&quality=lossless&width=70&height=68',
-    'W,W': 'https://media.discordapp.net/attachments/852993484288688198/1318182601684418601/image.png?ex=676164b6&is=67601336&hm=f0ea739c4b9eaae35f5322b17ee68114ce332869026069c3824074c2594e256a&=&format=webp&quality=lossless&width=73&height=71',
-    'E,Q': 'https://media.discordapp.net/attachments/852993484288688198/1318182692872912896/image.png?ex=676164cc&is=6760134c&hm=48aa5588c19ac0bcf5bbbbbbdba918c55e9049a143db246d7d74e1df51c735c9&=&format=webp&quality=lossless&width=72&height=69',
-    'E,W': 'https://media.discordapp.net/attachments/852993484288688198/1318182730638557204/image.png?ex=676164d5&is=67601355&hm=b1dc948de05f054ec74595a1a12a72912a7703b54822e15fc03673474b5cc38b&=&format=webp&quality=lossless&width=69&height=69',
-    'E,E': 'https://media.discordapp.net/attachments/852993484288688198/1318182774661709824/image.png?ex=676164e0&is=67601360&hm=e97df74e16b7b2c2f04b15ca62e4a71587d7367079022581857460cde8cfebd3&=&format=webp&quality=lossless&width=71&height=72',
+    'Q,Q': 'https://photos.fife.usercontent.google.com/pw/AP1GczMO0l0eUyITcdP0rkzH0tXXx-oPlBz3SBUZGdD8UfxR-ZqBZ07t6Oc=w64-h62-s-no-gm?authuser=1',
+    'Q,W': 'https://photos.fife.usercontent.google.com/pw/AP1GczMhBCzuFcIElR8jvhWbMVpBqfONrqoptSkpMaPTwH6W0YBMb8rf76s=w66-h64-s-no-gm?authuser=1',
+    'Q,E': 'https://photos.fife.usercontent.google.com/pw/AP1GczPUf87yNZrCX8tNFKhKh9ffOGTtBnvaVrMEj5_j5qobDgpa4X7nzXE=w66-h65-s-no-gm?authuser=1',
+    'W,Q': 'https://photos.fife.usercontent.google.com/pw/AP1GczNKNBTpPlZeYm1ar4zXtGDJBKe1BkcVz_gA8Q7NmTXfCnxd0mPD3wM=w66-h64-s-no-gm?authuser=1',
+    'W,E': 'https://photos.fife.usercontent.google.com/pw/AP1GczNetAi8VH6iXohg4E--sEaJ2_lZREfMwx0tQl2G03wr-Q1iRlDnhPk=w64-h62-s-no-gm?authuser=1',
+    'W,W': 'https://photos.fife.usercontent.google.com/pw/AP1GczNqNPKHkoxJOodwnxDis4aP_oLqeVR_6T5IedVtWRLeawTjRDiXQ9I=w67-h65-s-no-gm?authuser=1',
+    'E,Q': 'https://photos.fife.usercontent.google.com/pw/AP1GczPZJ4Eorg9WkJUkn6phOeVbQrle3xagvnDQvD9wKLHpshYowSRDHyQ=w66-h63-s-no-gm?authuser=1',
+    'E,W': 'https://photos.fife.usercontent.google.com/pw/AP1GczNyd2VgfXn87RnsMsRc8GIslQ_XgLXAMHz90ggt_OemVlQCr2aqi7Q=w63-h63-s-no-gm?authuser=1',
+    'E,E': 'https://photos.fife.usercontent.google.com/pw/AP1GczPYp9N0NjnTZjWUgS4NtKyDJ13Q9r8Ax31O4zxkAN0BlqKM1QInu3A=w65-h66-s-no-gm?authuser=1',
 };
 
 let correctCombo;
